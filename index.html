@@ -1,0 +1,84 @@
+<!doctype html>
+
+<html lang="pl">
+
+<head>
+
+
+	<meta charset="utf-8">
+
+	<title>Wojciech Marek test</title>
+
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/page.css">
+    <link rel="stylesheet" href="css/check_input.css">
+    <link rel="stylesheet" href="css/offers_card.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<script  type="module" src="js/get_data.js"></script>
+  <script type="module" src="js/show_data.js"></script>
+  <script  type="module" src="js/function_app.js"></script>
+
+
+</head>
+
+<body>
+    <div class="content_div">
+        <h1 class="fw-bold">OFERTY DEALERÓW</h1>
+        <div class="tools">
+            <div class="btn-group">
+                <input type="checkbox" value="false" id="accessible">
+                <label for="accessible">
+                  DOSTĘPNE
+                </label>
+                <input type="checkbox" value="false" id="favorite">
+                <label for="favorite">
+                  ULUBIONE
+                </label>
+                <input type="checkbox" value="false" id="automatic_gearbox">
+                <label for="automatic_gearbox">
+                  AUTOMATYCZNA SKRZYNIA BIEGÓW
+                </label>
+              </div>
+              
+              <div class="btn-group">
+                <select name="price_sort" id="price_sort">
+                  <option value="2">Ceny rosnąco</option>
+                  <option value="1">Ceny malejąco</option>
+          
+                </select>
+                <select name="city_sort" id="city_sort">
+                  <option value="none" selected disabled hidden>WYBIERZ MIASTO</option>
+          
+                </select>
+                <input type="search" class="form-control search" placeholder="&#xf002; SZUKAJ" aria-label="Search" aria-describedby="search-addon" />
+                
+              </div>
+        </div>
+       <div class="data_div" id="data">
+       
+        </div>
+    </div>
+    
+    
+
+
+
+</body>
+
+
+<!--
+<footer id="footer" role="contentinfo">
+
+</footer>
+
+-->
+
+
+
+
+
+
+
+</html>

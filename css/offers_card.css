@@ -1,0 +1,38 @@
+.card {
+  display: flex;
+  width: 300px;
+  flex-direction: column;
+  background: linear-gradient(0deg, rgb(172, 172, 172) 6%, rgb(125, 125, 125) 57%, rgb(75, 75, 75) 83%);
+  padding: 20px;
+  color: white;
+}
+.card h2 {
+  font-weight: bold;
+  font-size: 1.3em;
+  text-align: center;
+}
+.card h3 {
+  font-size: 1.3em;
+  text-align: center;
+}
+.card h4 {
+  font-size: 0.8em;
+  text-align: center;
+}
+.card .scribe {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 0.9em;
+}
+.card .scribe span {
+  font-weight: 700;
+}
+.card picture {
+  max-width: 280px;
+}
+
+.heart {
+  align-self: end;
+}

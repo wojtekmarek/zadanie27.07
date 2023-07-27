@@ -1,0 +1,43 @@
+@import './function';
+$bacgroundColor:linear-gradient(0deg, rgba(172,172,172,1) 6%, rgba(125,125,125,1) 57%, rgba(75,75,75,1) 83%);
+$width:300px;
+$color:white;
+$name_bolder:bold;
+$scribeFontSize:0.9em;
+
+.card{
+    @include displayFlex($width:$width , $flex-direction: column);
+    background: $bacgroundColor;
+    padding: 20px;
+    color: $color;
+   
+    h2{
+        font-weight:$name_bolder;
+        font-size: 1.3em;
+        text-align: center;
+    }
+    h3{
+        font-size: 1.3em;
+        text-align: center;
+    }
+    h4{
+        font-size: 0.8em;
+        text-align: center;
+    }
+    .scribe{
+        @include displayFlex($width:100% , $flex-direction:row);
+        justify-content: space-between;
+        font-size: $scribeFontSize;
+        span{
+            font-weight: 700;
+        }
+        
+    }
+    picture{
+        max-width: 280px;
+       
+    }
+}
+.heart{
+    align-self: end;
+}
