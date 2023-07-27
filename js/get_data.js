@@ -3,11 +3,11 @@ import { showdata } from "./show_data.js";
 
 
 
-//  https://gx.pandora.caps.pl/zadania/api/offers2023.json
+//  
 //http://localhost/htdocs/offers2023.json
 
 
-const data_json= await fetch("http://localhost/htdocs/offers2023.json", {
+const data_json= await fetch("https://gx.pandora.caps.pl/zadania/api/offers2023.json", {
     method: "GET", 
     mode: "cors",
     credentials: "include",
